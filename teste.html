@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Lentes de Óculos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <h2>Por favor insira suas informações, para podermos lhe informar qual a melhor lente para o seu caso.</h2>
+    <div class="Esquerdo" >
+        <h5>Olho Esquerdo</h5>
+        <p></p>
+        Grau esférico: <input type="number" id="GEsq"  name="GEsq"  min="-15" max="0" step="0.25" value="0">
+        <p></p>
+        Grau cilíndrico: <input type="number" id="CEsq"  min="-6" max="0" step="0.25" value="0">
+    </div>
+    <div class="Direito">
+        <h5>Olho Direito</h5>
+        <p></p>
+        Grau esférico: <input type="number" id="GDir"  min="-15" max="0" step="0.25" value="0">
+        <p></p>
+        Grau cilíndrico: <input type="number" id="CDir" min="-6" max="0" step="0.25" value="0">
+    </div>
+    <input type="submit" name="Enviar" id="btnEnviar" onclick="DescobrirLente()">
+    <input type="text" id="Result" placeholder="Resultado" disabled size="80px">
+
+  </body>
+</html>

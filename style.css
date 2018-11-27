@@ -1,0 +1,30 @@
+body{background-color: azure}
+h2{ text-align: center; color:darkcyan;}
+.Esquerdo{
+  position: relative;
+  border-width:3px;
+  width: 100px;
+  height: 100px;
+  left:500px;
+  float: left;
+  
+}
+.Direito{
+  position:relative;
+  border-width:2px;
+  width:100px;
+  height: 100px;
+  left:650px;
+  float: left;
+}
+#btnEnviar{
+  position: relative;
+  top: 180px;
+  float: bottom;
+  left: 450px;
+}
+#Result{
+  position: relative;
+  top: 220px;
+  left: 140px;
+}
